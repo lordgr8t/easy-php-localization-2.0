@@ -20,7 +20,7 @@ if($language) {
 	}
 }
 $CurentLang = addslashes($_SESSION['NowLang']);
-include_once ("lang/lang.".$CurentLang.".php");
+include_once ("lang/".$CurentLang.".php");
 ?>
 <html>
 <head>
